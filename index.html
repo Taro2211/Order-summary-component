@@ -8,16 +8,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Red+Hat+Display">
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center;}
     .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a:hover { color: hsl(228, 92%, 46%)}
   </style>
 </head>
 <body>
-  <div class="main_box">
-    <img class="hero_img" src="images/illustration-hero.svg" alt="">
+  <main class="main_box">
+    <img class="hero_img" src="images/illustration-hero.svg" aria-hidden="true" alt="">
     <div class="summary">
       <h1>Order Summary</h1>
 
@@ -25,7 +24,7 @@
       device anywhere you like!</p>
 
       <div class="purchase_plan">
-        <img class="icon" src="images/icon-music.svg" alt="">
+        <img class="icon" src="images/icon-music.svg" aria-hidden="true" alt="">
         <div class="price">
           <h2>Annual Plan</h2>
           <span style="font-weight: 500; font-size: 13px;">$59.99/year</span>
@@ -35,7 +34,7 @@
       <button type="button">Proceed to Payment</button>
       <a class="cancer" href="#">Cancer Order</a>
     </div>
-  </div>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
