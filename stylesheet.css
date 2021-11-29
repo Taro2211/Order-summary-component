@@ -91,11 +91,11 @@ button:hover {
     cursor: pointer;
 }
 .cancer:hover {
-    color: black;
+    color: #000000;
 }
 
 
-/*Desktop*/
+/*desktop*/
 @media only screen and (min-width: 600px) {
     body {
         background-image: url("images/pattern-background-desktop.svg");
